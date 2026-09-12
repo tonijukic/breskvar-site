@@ -235,6 +235,18 @@ h1, h2, h3 {
 .skip { position: absolute; left: -9999px; top: 0; background: var(--ink); color: #fff; padding: 0.7rem 1rem; z-index: 100; border-radius: 0 0 8px 0; }
 .skip:focus { left: 0; }
 
+/* ---------- real images ---------- */
+.hero__bg { background-size: cover; background-position: center; background-repeat: no-repeat; opacity: 0.62; z-index: 0; }
+.hero__court { z-index: 1; }
+.hero::after {
+  content: ""; position: absolute; inset: 0; z-index: 1; pointer-events: none;
+  background: linear-gradient(105deg, rgba(8,42,32,0.95) 0%, rgba(8,42,32,0.74) 48%, rgba(8,42,32,0.42) 100%);
+}
+.hero .container { z-index: 2; }
+.figure img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
+.figure figcaption { z-index: 2; }
+.gallery figure img { width: 100%; height: 100%; object-fit: cover; display: block; }
+
 /* ---------- responsive ---------- */
 @media (max-width: 900px) {
   .hero__grid, .split, .bio, .contact { grid-template-columns: 1fr; }
