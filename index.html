@@ -3,27 +3,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Teniška akademija Breskvar — Ljubljana · tenis od 1992</title>
-  <meta name="description" content="Teniška akademija Breskvar v Ljubljani. Od teniškega vrtca do vrhunskih igralcev — tradicija od leta 1992, regijski olimpijski center, notranji in zunanji tereni." />
-  <meta name="theme-color" content="#0b3b2e" />
-  <meta property="og:title" content="Teniška akademija Breskvar — Ljubljana" />
-  <meta property="og:description" content="Teniška tradicija, ki oblikuje prvake. Od 1992." />
+  <title>Teniška akademija Breskvar — Ljubljana · od 1992</title>
+  <meta name="description" content="Teniška akademija Breskvar, Ljubljana. Od teniškega vrtca do vrhunskih igralcev — tradicija od leta 1992, regijski olimpijski center." />
+  <meta name="theme-color" content="#1c1712" />
+  <meta property="og:title" content="Teniška akademija Breskvar — od 1992" />
+  <meta property="og:description" content="Tradicija, ki oblikuje prvake. Ljubljana, od 1992." />
   <meta property="og:type" content="website" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..600;1,9..144,400..500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Spectral:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <a href="#main" class="skip">Preskoči na vsebino</a>
 
-  <!-- NAV -->
+  <div class="topstrip">Teniška akademija · Ljubljana · Ustanovljeno 1992</div>
+
   <header class="nav" id="nav">
     <div class="container nav__inner">
-      <a class="brand" href="#top" aria-label="Teniška akademija Breskvar">
-        <span class="brand__mark">B</span>
-        <span>Breskvar<small>Teniška akademija · Ljubljana</small></span>
-      </a>
+      <a class="wordmark" href="#top" style="text-decoration:none;">Breskvar<small>Tenis · Ljubljana</small></a>
       <nav class="nav__links" id="navLinks" aria-label="Glavni meni">
         <a href="#akademija">Akademija</a>
         <a href="#dediscina">Dediščina</a>
@@ -31,277 +29,257 @@
         <a href="#ekipa">Ekipa</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
-      <div class="nav__cta">
-        <a href="#kontakt" class="btn">Rezerviraj termin</a>
-        <button class="nav__toggle" id="navToggle" aria-label="Meni" aria-expanded="false" aria-controls="navLinks">
-          <span></span><span></span><span></span>
-        </button>
-      </div>
+      <button class="nav__toggle" id="navToggle" aria-label="Meni" aria-expanded="false" aria-controls="navLinks">Meni</button>
     </div>
   </header>
 
   <main id="main">
     <!-- HERO -->
     <section class="hero" id="top">
-      <div class="hero__bg" style="background-image:url('assets/img/hero.jpg')"></div>
-      <svg class="hero__court" viewBox="0 0 800 500" preserveAspectRatio="xMidYMid slice" aria-hidden="true">
-        <g fill="none" stroke="#ffffff" stroke-width="2">
-          <rect x="90" y="40" width="620" height="420" />
-          <rect x="90" y="120" width="620" height="260" />
-          <line x1="90" y1="250" x2="710" y2="250" />
-          <line x1="400" y1="120" x2="400" y2="380" />
-          <line x1="400" y1="40" x2="400" y2="60" />
-          <line x1="400" y1="440" x2="400" y2="460" />
-        </g>
-      </svg>
       <div class="container">
         <div class="hero__grid">
           <div class="reveal">
-            <p class="hero__tag">Ljubljana · od leta 1992</p>
-            <h1>Teniška tradicija, ki oblikuje <em>prvake</em>.</h1>
-            <p class="hero__lead">Od prvega loparja v teniškem vrtcu do vrhunskih tekmovalnih poti — na akademiji Breskvar že tri desetletja razvijamo igralce z znanjem, karakterjem in ljubeznijo do igre.</p>
+            <p class="kicker">Od 1992 · Tenis za vse generacije</p>
+            <h1>Tradicija, ki<br />oblikuje <span class="ox">prvake</span>.</h1>
+            <p class="hero__lead">Od prvega loparja v teniškem vrtcu do vrhunske tekmovalne poti — tri desetletja v Ljubljani gradimo igralce z znanjem, karakterjem in ljubeznijo do igre.</p>
             <div class="hero__actions">
-              <a href="#programi" class="btn btn--lg">Vpiši se na trening</a>
-              <a href="#akademija" class="btn btn--ghost btn--lg">Spoznaj akademijo</a>
+              <a href="#kontakt" class="btn">Rezerviraj termin</a>
+              <a href="#akademija" class="link-arrow">Spoznaj akademijo →</a>
             </div>
-            <div class="hero__stats">
-              <div><div class="num">1992</div><div class="lbl">Leto ustanovitve</div></div>
-              <div><div class="num">7</div><div class="lbl">Teniških igrišč</div></div>
-              <div><div class="num">2016</div><div class="lbl">Olimpijski center</div></div>
+            <div class="hero__ledger">
+              <div><div class="n">1992</div><div class="l">Ustanovitev</div></div>
+              <div><div class="n">7</div><div class="l">Teniških igrišč</div></div>
+              <div><div class="n">2016</div><div class="l">Olimpijski center</div></div>
             </div>
           </div>
-          <aside class="hero__card reveal" aria-label="Kaj ponujamo">
-            <h3>Tenis za vsako starost</h3>
-            <p>Program, ki raste z igralcem — od otroških korakov do članske konkurence.</p>
-            <ul>
-              <li>Teniški vrtec in šola za otroke</li>
-              <li>Tekmovalni program z vrhunskimi trenerji</li>
-              <li>Notranji in zunanji tereni skozi vse leto</li>
-              <li>Poletni kampi in individualni treningi</li>
-            </ul>
-          </aside>
+          <div class="hero__media reveal">
+            <div class="frame">
+              <div class="duo"><img src="assets/img/hero.jpg" alt="Teniško igrišče" /></div>
+            </div>
+            <span class="plate">Ljubljana · Tesovnikova 74c</span>
+            <div class="seal" aria-hidden="true">
+              <svg viewBox="0 0 120 120">
+                <circle cx="60" cy="60" r="58" fill="#1c1712" />
+                <circle cx="60" cy="60" r="47" fill="none" stroke="#efe6d4" stroke-width="1" />
+                <defs><path id="sealpath" d="M60,60 m-40,0 a40,40 0 1,1 80,0 a40,40 0 1,1 -80,0" /></defs>
+                <text><textPath href="#sealpath" startOffset="2%">· Teniška akademija Breskvar · Est. 1992 </textPath></text>
+                <text x="60" y="72" text-anchor="middle" class="core" style="font-size:34px;fill:#efe6d4;">B</text>
+              </svg>
+            </div>
+          </div>
         </div>
       </div>
     </section>
 
-    <!-- AKADEMIJA -->
+    <!-- 01 AKADEMIJA -->
     <section class="section" id="akademija">
-      <div class="container split">
-        <div class="stack reveal">
-          <p class="eyebrow">O akademiji</p>
-          <h2>Trije desetletji vrhunskega tenisa v Ljubljani.</h2>
-          <p class="lead">Teniško akademijo Breskvar sta leta 1992 ustanovila Boris in Peter Breskvar. Iz družinske strasti do tenisa je zrasel eden najprepoznavnejših teniških centrov v Sloveniji.</p>
-          <p class="muted">Verjamemo, da se prvaki gradijo postopoma — s pravo tehniko, telesno pripravo in mentaliteto. Zato pri nas vsak igralec, ne glede na starost ali cilj, dobi program po meri in trenerja, ki mu stoji ob strani.</p>
-          <div class="chips">
-            <span class="chip">3 peščena igrišča</span>
-            <span class="chip">Notranja dvorana od 2006</span>
-            <span class="chip">Kondicijska dvorana</span>
-            <span class="chip">Badminton &amp; odbojka na mivki</span>
-          </div>
-        </div>
-        <figure class="figure reveal" aria-label="Fotografija igrišč akademije Breskvar">
-          <img src="assets/img/academy.jpg" alt="Peščeno teniško igrišče" loading="lazy" />
-          <figcaption>Zunanji peščeni tereni, pozimi pokriti z baloni.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <!-- DEDIŠČINA -->
-    <section class="section section--dark" id="dediscina">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Dediščina</p>
-          <h2>Ime, ki ga pozna svetovni tenis.</h2>
-          <p>Soustanovitelj akademije Boris Breskvar (1942–2012) je bil eden najuglednejših teniških trenerjev svoje generacije — pod njegovim vodstvom so odraščala imena, kot so Boris Becker, Steffi Graf in Andrij Medvedjev, vodil pa je tudi slovensko Davisov pokal reprezentanco.</p>
+          <span class="no">01</span>
+          <div>
+            <p class="kicker">O akademiji</p>
+            <h2 class="serif-title">Trije desetletji tenisa v Ljubljani</h2>
+          </div>
+          <p class="sub">Teniško akademijo Breskvar sta leta 1992 ustanovila Boris in Peter Breskvar — iz družinske strasti do igre je zrasel eden najprepoznavnejših teniških centrov v Sloveniji.</p>
         </div>
-        <blockquote class="quote reveal" style="color:#f0b892;border-color:#e7a077;max-width:60ch;">
-          „Tenis ni le tehnika — je značaj, ki ga zgradiš z vsakim treningom.“
-        </blockquote>
-        <div class="stack reveal">
-          <p style="color:#cfe0d7;max-width:62ch;">To zapuščino danes v Ljubljani nadaljuje Peter Breskvar. Na igriščih akademije so brusili igro tudi slovenski profesionalci — <strong>Blaž Rola</strong>, <strong>Kaja Juvan</strong>, <strong>Tamara Zidanšek</strong> in <strong>Bor Artnak</strong> — med mladimi upi pa izstopa <strong>Svit Suljić</strong>.</p>
+        <div class="split">
+          <div class="stack reveal">
+            <p class="lead">Verjamemo, da se prvaki gradijo postopoma — s pravo tehniko, telesno pripravo in mentaliteto.</p>
+            <p class="muted">Zato pri nas vsak igralec, ne glede na starost ali cilj, dobi program po meri in trenerja, ki mu stoji ob strani. Skozi vse leto treniramo na peščenih in trdih igriščih, pozimi pod baloni in v notranji dvorani.</p>
+            <div class="tags">
+              <span>3 peščena igrišča</span>
+              <span>Notranja dvorana od 2006</span>
+              <span>Kondicijska dvorana</span>
+              <span>Badminton &amp; mivka</span>
+            </div>
+          </div>
+          <figure class="frame reveal" style="margin:0;">
+            <div class="duo" style="aspect-ratio:4/5;"><img src="assets/img/academy.jpg" alt="Peščeno teniško igrišče akademije" loading="lazy" /></div>
+          </figure>
         </div>
       </div>
     </section>
 
-    <!-- PROGRAMI -->
+    <!-- 02 DEDIŠČINA -->
+    <section class="section section--dark dediscina" id="dediscina">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="no">02</span>
+          <div>
+            <p class="kicker">Dediščina</p>
+            <h2 class="serif-title">Ime, ki ga pozna svetovni tenis</h2>
+          </div>
+          <p class="sub">Soustanovitelj Boris Breskvar (1942–2012) je bil eden najuglednejših teniških trenerjev svoje generacije — pod njegovim vodstvom so odraščala imena kot Boris Becker, Steffi Graf in Andrij Medvedjev, vodil pa je tudi slovensko Davisov pokal reprezentanco.</p>
+        </div>
+        <div class="split">
+          <blockquote class="pullquote reveal">„Tenis ni le tehnika — je značaj, ki ga zgradiš z vsakim treningom.“</blockquote>
+          <p class="reveal" style="color:#cabd9f;">To zapuščino danes v Ljubljani nadaljuje <strong style="color:#efe6d4;">Peter Breskvar</strong>. Na igriščih akademije so brusili igro tudi slovenski profesionalci — <strong style="color:#efe6d4;">Blaž Rola</strong>, <strong style="color:#efe6d4;">Kaja Juvan</strong>, <strong style="color:#efe6d4;">Tamara Zidanšek</strong> in <strong style="color:#efe6d4;">Bor Artnak</strong> — med mladimi upi pa izstopa <strong style="color:#efe6d4;">Svit Suljić</strong>.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- 03 PROGRAMI -->
     <section class="section" id="programi">
       <div class="container">
         <div class="section-head reveal">
-          <p class="eyebrow">Programi</p>
-          <h2>Pot za vsakega igralca.</h2>
-          <p>Od igrivih prvih korakov do resne tekmovalne priprave — izberi program, ki ti pripada.</p>
+          <span class="no">03</span>
+          <div>
+            <p class="kicker">Programi</p>
+            <h2 class="serif-title">Pot za vsakega igralca</h2>
+          </div>
+          <p class="sub">Od igrivih prvih korakov do resne tekmovalne priprave — izberi program, ki ti pripada.</p>
         </div>
-        <div class="cards">
-          <article class="card reveal">
-            <div class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="12" r="9"/><path d="M12 3a9 9 0 0 0 0 18M3 12a9 9 0 0 1 18 0"/></svg></div>
-            <h3>Teniški vrtec</h3>
-            <p>Predšolski otroci skozi igro spoznavajo lopar, žogo in gibanje. Prvo prijateljstvo s tenisom.</p>
-            <div class="card__meta">Starost 4–6 let</div>
-          </article>
-          <article class="card reveal">
-            <div class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M4 20 20 4M9 4h11v11"/></svg></div>
-            <h3>Teniška šola</h3>
-            <p>Manjše, po znanju izenačene skupine za šolarje in rekreativce. Tehnika, taktika in tedenska kondicija.</p>
-            <div class="card__meta">Otroci &amp; odrasli</div>
-          </article>
-          <article class="card reveal">
-            <div class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/><circle cx="12" cy="12" r="5"/></svg></div>
-            <h3>Tekmovalni program</h3>
-            <p>Za ambiciozne igralce — trening na pesku in trdi podlagi, kondicija ter spomladanske priprave v Portorožu.</p>
-            <div class="card__meta">Napredni &amp; tekmovalci</div>
-          </article>
-          <article class="card reveal">
-            <div class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 3v18M5 8l7-5 7 5"/><circle cx="12" cy="14" r="4"/></svg></div>
-            <h3>Poletni kampi</h3>
-            <p>Julija in avgusta v Ljubljani (poldnevni in celodnevni), poseben družinski teden pa v Bovcu.</p>
-            <div class="card__meta">Julij–avgust</div>
-          </article>
-          <article class="card reveal">
-            <div class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg></div>
-            <h3>Individualni treningi</h3>
-            <p>Trening ena-na-ena skozi vse leto, prilagojen tvojemu nivoju in ciljem. Najhitrejši napredek.</p>
-            <div class="card__meta">Vsi nivoji</div>
-          </article>
-          <article class="card reveal">
-            <div class="card__ico" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7"><path d="M12 2v20M7 7l10 10M17 7 7 17"/></svg></div>
-            <h3>Badminton &amp; mivka</h3>
-            <p>Šest badmintonskih igrišč v dvorani in poleti igrišči za odbojko na mivki — za igro in druženje.</p>
-            <div class="card__meta">Celo leto</div>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <!-- STATISTIKA -->
-    <section class="section section--dark">
-      <div class="container stats">
-        <div class="stat reveal"><div class="num">1992</div><div class="lbl">Ustanovitev akademije</div></div>
-        <div class="stat reveal"><div class="num">7</div><div class="lbl">Teniških igrišč</div></div>
-        <div class="stat reveal"><div class="num">6</div><div class="lbl">Badminton igrišč</div></div>
-        <div class="stat reveal"><div class="num">2016</div><div class="lbl">Regijski olimpijski center</div></div>
-      </div>
-    </section>
-
-    <!-- EKIPA / PETER -->
-    <section class="section" id="ekipa">
-      <div class="container bio">
-        <div class="bio__portrait reveal">
-          <figure class="figure" aria-label="Prostor za fotografijo Petra Breskvarja">
-            <span style="font-size:0.9rem;opacity:0.8;">Prostor za uradno fotografijo</span>
-            <figcaption>Peter Breskvar — vodja akademije</figcaption>
-          </figure>
-        </div>
-        <div class="stack reveal">
-          <p class="eyebrow">Ekipa</p>
-          <h2>Peter Breskvar</h2>
-          <p class="lead">Vodja teniške akademije ter njene teniške šole in tekmovalnega programa. Diplomant Fakultete za šport, ki nadaljuje družinsko teniško tradicijo.</p>
-          <p class="muted">Poleg dela na igrišču je Peter dejaven tudi v slovenskem tenisu kot član izvršnega odbora Teniške zveze Slovenije. Njegovo vodilo je preprosto: vsak igralec si zasluži trenerja, ki verjame vanj.</p>
-          <blockquote class="quote">„Najlepše je, ko otrok, ki je komaj držal lopar, nekega dne zaigra brez strahu.“</blockquote>
-          <p class="eyebrow" style="margin-top:1rem;">Trenerska ekipa</p>
-          <div class="chips">
-            <span class="chip">Peter Breskvar</span>
-            <span class="chip">Jaka Šubelj</span>
-            <span class="chip">Andraž Jovanovič</span>
-            <span class="chip">Boris Bevc</span>
-            <span class="chip">Kristian Rak</span>
-            <span class="chip">Sebastjan Ogris · kondicija</span>
+        <div class="index reveal">
+          <div class="index__row">
+            <span class="index__no">01</span>
+            <div><div class="index__name">Teniški vrtec</div><p class="index__desc">Predšolski otroci skozi igro spoznavajo lopar, žogo in gibanje.</p></div>
+            <span class="index__meta">4–6 let</span>
+          </div>
+          <div class="index__row">
+            <span class="index__no">02</span>
+            <div><div class="index__name">Teniška šola</div><p class="index__desc">Manjše, po znanju izenačene skupine za šolarje in rekreativce — tehnika, taktika in tedenska kondicija.</p></div>
+            <span class="index__meta">Otroci &amp; odrasli</span>
+          </div>
+          <div class="index__row">
+            <span class="index__no">03</span>
+            <div><div class="index__name">Tekmovalni program</div><p class="index__desc">Trening na pesku in trdi podlagi, kondicija ter spomladanske priprave v Portorožu.</p></div>
+            <span class="index__meta">Tekmovalci</span>
+          </div>
+          <div class="index__row">
+            <span class="index__no">04</span>
+            <div><div class="index__name">Poletni kampi</div><p class="index__desc">Julija in avgusta v Ljubljani (poldnevni in celodnevni), družinski teden pa v Bovcu.</p></div>
+            <span class="index__meta">Julij–avgust</span>
+          </div>
+          <div class="index__row">
+            <span class="index__no">05</span>
+            <div><div class="index__name">Individualni treningi</div><p class="index__desc">Trening ena-na-ena skozi vse leto, prilagojen tvojemu nivoju in ciljem.</p></div>
+            <span class="index__meta">Vsi nivoji</span>
+          </div>
+          <div class="index__row">
+            <span class="index__no">06</span>
+            <div><div class="index__name">Badminton &amp; mivka</div><p class="index__desc">Šest badmintonskih igrišč v dvorani in poletna igrišča za odbojko na mivki.</p></div>
+            <span class="index__meta">Celo leto</span>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- GALERIJA -->
-    <section class="section section--tint">
+    <!-- RECORD -->
+    <section class="section--dark">
       <div class="container">
-        <div class="section-head reveal">
-          <p class="eyebrow">Galerija</p>
-          <h2>Utrip akademije.</h2>
-        </div>
-        <div class="gallery reveal">
-          <figure class="tall"><img src="assets/img/g1.jpg" alt="Trening na teniškem igrišču" loading="lazy" /></figure>
-          <figure><img src="assets/img/g2.jpg" alt="Teniški lopar in igralec" loading="lazy" /></figure>
-          <figure><img src="assets/img/g4.jpg" alt="Teniška žoga na igrišču" loading="lazy" /></figure>
-          <figure><img src="assets/img/g5.jpg" alt="Teniški turnir" loading="lazy" /></figure>
-          <figure class="tall"><img src="assets/img/g6.jpg" alt="Servis" loading="lazy" /></figure>
-          <figure><img src="assets/img/g7.jpg" alt="Igralec z loparjem" loading="lazy" /></figure>
+        <div class="record">
+          <div class="reveal"><div class="n">1992</div><div class="l">Ustanovitev</div></div>
+          <div class="reveal"><div class="n">7</div><div class="l">Teniških igrišč</div></div>
+          <div class="reveal"><div class="n">6</div><div class="l">Badminton igrišč</div></div>
+          <div class="reveal"><div class="n">2016</div><div class="l">Olimpijski center</div></div>
         </div>
       </div>
     </section>
 
-    <!-- KONTAKT -->
-    <section class="section section--dark" id="kontakt">
-      <div class="container contact">
-        <div class="stack reveal">
-          <p class="eyebrow">Kontakt</p>
-          <h2>Rezerviraj svoj prvi trening.</h2>
-          <p style="color:#cfe0d7;">Pridi na igrišče Tesovnikova 74c ali nam piši — z veseljem ti svetujemo pravi program.</p>
-          <ul class="info-list">
-            <li><span class="k">Naslov</span><span>Tesovnikova ulica 74c, 1000 Ljubljana</span></li>
-            <li><span class="k">Telefon</span><span><a href="tel:+38615683819">+386 1 568 38 19</a> · <a href="tel:+38651683819">+386 51 683 819</a></span></li>
-            <li><span class="k">E-pošta</span><span><a href="mailto:tenis.breskvar@gmail.com">tenis.breskvar@gmail.com</a></span></li>
-          </ul>
+    <!-- 04 EKIPA -->
+    <section class="section" id="ekipa">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="no">04</span>
+          <div>
+            <p class="kicker">Ekipa</p>
+            <h2 class="serif-title">Peter Breskvar in trenerji</h2>
+          </div>
+          <p class="sub">Vodja akademije ter njene teniške šole in tekmovalnega programa, diplomant Fakultete za šport in član izvršnega odbora Teniške zveze Slovenije.</p>
         </div>
-        <form class="form reveal" id="contactForm">
-          <label>Ime in priimek
-            <input type="text" name="ime" placeholder="Tvoje ime" required />
-          </label>
-          <label>E-pošta
-            <input type="email" name="email" placeholder="ti@primer.si" required />
-          </label>
-          <label>Program
-            <select name="program">
-              <option>Teniški vrtec</option>
-              <option>Teniška šola</option>
-              <option>Tekmovalni program</option>
-              <option>Poletni kamp</option>
-              <option>Individualni trening</option>
-              <option>Badminton / mivka</option>
-            </select>
-          </label>
-          <label>Sporočilo
-            <textarea name="sporocilo" rows="3" placeholder="Kaj te zanima?"></textarea>
-          </label>
-          <button type="submit" class="btn btn--lg" style="justify-content:center;">Pošlji povpraševanje</button>
-        </form>
+        <div class="split">
+          <div class="reveal">
+            <div class="portrait-frame">
+              <div class="portrait-ph">Prostor za uradno fotografijo</div>
+            </div>
+            <div class="portrait-cap">Peter Breskvar — vodja akademije</div>
+            <ul class="roster">
+              <li>Peter Breskvar <span>vodja</span></li>
+              <li>Jaka Šubelj <span>trener</span></li>
+              <li>Andraž Jovanovič <span>trener</span></li>
+              <li>Boris Bevc <span>trener</span></li>
+              <li>Kristian Rak <span>trener</span></li>
+              <li>Sebastjan Ogris <span>kondicija</span></li>
+            </ul>
+          </div>
+          <div class="stack reveal">
+            <blockquote class="pullquote" style="color:var(--oxblood);">„Najlepše je, ko otrok, ki je komaj držal lopar, nekega dne zaigra brez strahu.“</blockquote>
+            <div class="cols muted">
+              <p>Peter Breskvar nadaljuje družinsko teniško tradicijo, ki jo je začrtal njegov oče Boris. Na igrišču združuje klasično šolo udarca z sodobno telesno pripravo.</p>
+              <p>Njegovo vodilo je preprosto: vsak igralec si zasluži trenerja, ki verjame vanj — ne glede na to, ali sanja o turnirjih ali si le želi dobro zaigrati z družino.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- 05 GALERIJA -->
+    <section class="section section--tint">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="no">05</span>
+          <div><p class="kicker">Galerija</p><h2 class="serif-title">Utrip akademije</h2></div>
+        </div>
+        <div class="plates reveal">
+          <figure class="tall"><div class="duo"><img src="assets/img/g1.jpg" alt="Trening na igrišču" loading="lazy" /></div><figcaption>Pl. 01 — Trening</figcaption></figure>
+          <figure><div class="duo"><img src="assets/img/g2.jpg" alt="Lopar in igralec" loading="lazy" /></div><figcaption>Pl. 02 — Lopar</figcaption></figure>
+          <figure><div class="duo"><img src="assets/img/g4.jpg" alt="Teniška žoga" loading="lazy" /></div><figcaption>Pl. 03 — Igra</figcaption></figure>
+          <figure><div class="duo"><img src="assets/img/g5.jpg" alt="Turnir" loading="lazy" /></div><figcaption>Pl. 04 — Turnir</figcaption></figure>
+          <figure class="tall"><div class="duo"><img src="assets/img/g6.jpg" alt="Servis" loading="lazy" /></div><figcaption>Pl. 05 — Servis</figcaption></figure>
+          <figure><div class="duo"><img src="assets/img/g7.jpg" alt="Igralec z loparjem" loading="lazy" /></div><figcaption>Pl. 06 — Dvoboj</figcaption></figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- 06 KONTAKT -->
+    <section class="section section--dark" id="kontakt">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="no">06</span>
+          <div><p class="kicker">Kontakt</p><h2 class="serif-title">Rezerviraj svoj prvi trening</h2></div>
+        </div>
+        <div class="contact">
+          <div class="letterhead reveal" style="color:#cabd9f;">
+            <p class="big" style="color:#efe6d4;">Teniška akademija Breskvar</p>
+            <p>Tesovnikova ulica 74c</p>
+            <p>1000 Ljubljana, Slovenija</p>
+            <p style="margin-top:1.1rem;">T <a href="tel:+38615683819">+386 1 568 38 19</a></p>
+            <p>M <a href="tel:+38651683819">+386 51 683 819</a></p>
+            <p>E <a href="mailto:tenis.breskvar@gmail.com">tenis.breskvar@gmail.com</a></p>
+          </div>
+          <form class="form reveal" id="contactForm">
+            <label>Ime in priimek<input type="text" name="ime" placeholder="Tvoje ime" required /></label>
+            <label>E-pošta<input type="email" name="email" placeholder="ti@primer.si" required /></label>
+            <label>Program
+              <select name="program">
+                <option>Teniški vrtec</option><option>Teniška šola</option><option>Tekmovalni program</option>
+                <option>Poletni kamp</option><option>Individualni trening</option><option>Badminton / mivka</option>
+              </select>
+            </label>
+            <label>Sporočilo<textarea name="sporocilo" rows="2" placeholder="Kaj te zanima?"></textarea></label>
+            <button type="submit" class="btn">Pošlji povpraševanje</button>
+          </form>
+        </div>
       </div>
     </section>
   </main>
 
-  <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
-      <div class="footer__grid">
+      <div class="footer__top">
         <div>
-          <a class="brand" href="#top" style="color:#fff;">
-            <span class="brand__mark">B</span>
-            <span>Breskvar<small style="color:#7fa090;">Teniška akademija · Ljubljana</small></span>
-          </a>
-          <p class="muted" style="color:#7fa090;max-width:32ch;margin-top:1rem;">Teniška tradicija od leta 1992. Tenis za vsako starost in vsak cilj.</p>
+          <span class="wordmark">Breskvar<small style="color:#7c7360;">Tenis · Ljubljana</small></span>
+          <p class="disclaimer" style="margin-top:1rem;">Teniška tradicija od leta 1992. Tenis za vsako starost in vsak cilj.</p>
         </div>
         <div class="footer__cols">
-          <div class="footer__col">
-            <h4>Akademija</h4>
-            <a href="#akademija">O nas</a>
-            <a href="#dediscina">Dediščina</a>
-            <a href="#ekipa">Ekipa</a>
-          </div>
-          <div class="footer__col">
-            <h4>Programi</h4>
-            <a href="#programi">Teniška šola</a>
-            <a href="#programi">Tekmovalni program</a>
-            <a href="#programi">Poletni kampi</a>
-          </div>
-          <div class="footer__col">
-            <h4>Kontakt</h4>
-            <a href="tel:+38615683819">+386 1 568 38 19</a>
-            <a href="mailto:tenis.breskvar@gmail.com">tenis.breskvar@gmail.com</a>
-            <a href="https://www.instagram.com/tennisacademybreskvar/" target="_blank" rel="noopener">Instagram</a>
-          </div>
+          <div class="footer__col"><h4>Akademija</h4><a href="#akademija">O nas</a><a href="#dediscina">Dediščina</a><a href="#ekipa">Ekipa</a></div>
+          <div class="footer__col"><h4>Programi</h4><a href="#programi">Teniška šola</a><a href="#programi">Tekmovalni</a><a href="#programi">Kampi</a></div>
+          <div class="footer__col"><h4>Kontakt</h4><a href="tel:+38615683819">+386 1 568 38 19</a><a href="mailto:tenis.breskvar@gmail.com">E-pošta</a><a href="https://www.instagram.com/tennisacademybreskvar/" target="_blank" rel="noopener">Instagram</a></div>
         </div>
       </div>
       <div class="footer__bottom">
         <span>© 2026 Teniška akademija Breskvar</span>
-        <span class="disclaimer">Neuradni konceptni redizajn spletne strani, izdelan v predstavitvene namene iz javno dostopnih informacij. Ni uradna stran akademije.</span>
+        <span class="disclaimer">Neuraden konceptni redizajn iz javno dostopnih informacij. Ni uradna stran akademije.</span>
       </div>
     </div>
   </footer>
